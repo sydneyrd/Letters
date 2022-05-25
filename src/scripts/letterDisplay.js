@@ -34,11 +34,11 @@ const findAuthor = (letterObj) => {
 }
 
 const findTopics = (letterObj) => {
-    const topics = getTopics()
-     const topicIds = letterObj.topicIds
+    const topics = getTopics()  //get the topic list
+     const topicIds = letterObj.topicIds //just the topics on the letter
      let html = ``
      topics.forEach((topic) => {
-         if (topicIds.includes(topic.id))
+         if (topicIds.includes(topic.id)) //grab the correct topic from the ids on the letters
          html += `<p class="topic" value="${topic.id}">${topic.topic}</p>`
      })
      return html

@@ -70,28 +70,20 @@ mainContainer.addEventListener("click", clickEvent => {
             topics.push(parseInt(checkbox.value))
         });
 
-
-
-        // Make an object out of the user input
-        const dataToSendToAPI = {
-            author: userauthor,
-            recipient: userrecipient,
-            topicIds: topics,
-            text: usertext,
-            date: new Date().toDateString()
-        };
-        if (
-            dataToSendToAPI.userauthor === undefined ||
-            dataToSendToAPI.userrecipient === undefined ||
-            dataToSendToAPI.usertext === ""
-        )
-         {
-            window.alert("Please actually fill out all the things before you hit send, cmon.")
-        } else {
-
+        if (userauthor > 0 && usertext !== "" && topics.length > 0 && userrecipient > 0) {
+                
+            const dataToSendToAPI = {
+                author: userauthor,
+                recipient: userrecipient,
+                topicIds: topics,
+                text: usertext,
+                date: new Date().toDateString()
+            };
             sendLetter(dataToSendToAPI)
+                
+        } else {
+            window.alert("plz fill out form")
         }
-    }
-})
-
+    }})
+ 
 
