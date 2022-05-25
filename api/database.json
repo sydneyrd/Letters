@@ -1,0 +1,129 @@
+{
+  "Authors": [
+    {
+      "id": 1,
+      "name": "Kurt Vonnegut",
+      "email": "notbillypilgrim@sometime.com"
+    },
+    {
+      "id": 2,
+      "name": "Isaac Asimov",
+      "email": "Firstlawofsimpotics@robots.com"
+    },
+    {
+      "id": 3,
+      "name": "George Orwell",
+      "email": "pleasedont@me.com"
+    },
+    {
+      "id": 4,
+      "name": "Lloyd Alexander",
+      "email": "whocaresaboutcslewis@kidsbook.com"
+    },
+    {
+      "id": 5,
+      "name": "George R. R. Martin",
+      "email": "ipromiseimworkingonit@youregonnaeatyourselftodeathbeforewindsofwintercomesout.com"
+    },
+    {
+      "id": 6,
+      "name": "Your Mom",
+      "email": "iloveyouhoney@yourmomlovesyou.com"
+    }
+  ],
+  "Topics": [
+    {
+      "id": 1,
+      "topic": "Sorry I didn't respond to your text"
+    },
+    {
+      "id": 2,
+      "topic": "The Bears"
+    },
+    {
+      "id": 3,
+      "topic": "Well hello there"
+    },
+    {
+      "id": 4,
+      "topic": "Technology"
+    }
+  ],
+  "Letters": [
+    {
+      "author": 2,
+      "recipient": 3,
+      "text": "    fdsafd",
+      "date": "Tue May 24 2022",
+      "topicIds": [
+        1,
+        2
+      ],
+      "id": 1
+    },
+    {
+      "author": 2,
+      "recipient": 3,
+      "topicIds": [
+        1
+      ],
+      "text": "    dfsfs",
+      "date": "Tue May 24 2022",
+      "id": 2
+    },
+    {
+      "author": 2,
+      "recipient": 5,
+      "topicIds": [
+        1
+      ],
+      "text": "  this is a test letter, is it working?",
+      "date": "Tue May 24 2022",
+      "id": 3
+    },
+    {
+      "author": 2,
+      "recipient": 2,
+      "topicIds": [
+        1,
+        2,
+        3
+      ],
+      "text": "    ",
+      "date": "Wed May 25 2022",
+      "id": 4
+    }
+  ],
+  "Recipients": [
+    {
+      "id": 1,
+      "name": "Kurt Vonnegut",
+      "email": "notbillypilgrim@sometime.com"
+    },
+    {
+      "id": 2,
+      "name": "Isaac Asimov",
+      "email": "Firstlawofsimpotics@robots.com"
+    },
+    {
+      "id": 3,
+      "name": "George Orwell",
+      "email": "pleasedont@me.com"
+    },
+    {
+      "id": 4,
+      "name": "Lloyd Alexander",
+      "email": "whocaresaboutcslewis@kidsbook.com"
+    },
+    {
+      "id": 5,
+      "name": "George R. R. Martin",
+      "email": "ipromiseimworkingonit@youregonnaeatyourselftodeathbeforewindsofwintercomesout.com"
+    },
+    {
+      "id": 6,
+      "name": "Your Mom",
+      "email": "iloveyouhoney@yourmomlovesyou.com"
+    }
+  ]
+}
